@@ -1,4 +1,4 @@
-# Stripe Checkoutの実装
+# Web サイトまたはアプリケーションにカスタムの Stripe 支払いフォームを埋め込む方法
 
 
 ## ライブラリのインストール
@@ -12,20 +12,20 @@ go get -u github.com/stripe/stripe-go
 ### Run the server
 
 ```
-go run cmd/StripeSample01/server.go
+go run cmd/StripeSample02/server.go
 ```
 
 ### Build the client app
 
 ```
-cd cmd/StripeSample01
+cd cmd/StripeSample02
 npm install --force
 ```
 
 ### Run the client app
 
 ```
-cd cmd/StripeSample01
+cd cmd/StripeSample02
 npm start
 ```
 
@@ -42,7 +42,5 @@ https://qiita.com/cnloni/items/1c83cac956599fb24158
 
 ## 参考
 
-> https://stripe.com/docs/checkout/quickstart
-> https://qiita.com/cnloni/items/1c83cac956599fb24158
-> https://confrage.jp/node-js%E3%81%AE%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%82%92%E6%9C%80%E6%96%B0%E3%81%AB%E3%81%99%E3%82%8Bnpm-check-updates%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB/
+> https://stripe.com/docs/payments/quickstart
 > 
