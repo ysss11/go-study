@@ -18,10 +18,49 @@
 go run cmd/Fortune/fortune.go
 ```
 
+## テスト実施方法
+
+```
+go test ./cmd/Fortune
+ok      go_study/cmd/Fortune    0.091s
+
+or
+
+go test -v ./cmd/Fortune
+=== RUN   TestFortune
+=== RUN   TestFortune/大凶のテスト
+=== RUN   TestFortune/凶のテスト1
+=== RUN   TestFortune/凶のテスト2
+=== RUN   TestFortune/吉のテスト3
+=== RUN   TestFortune/吉のテスト4
+=== RUN   TestFortune/吉のテスト5
+=== RUN   TestFortune/中吉のテスト6
+=== RUN   TestFortune/中吉のテスト7
+=== RUN   TestFortune/中吉のテスト8
+=== RUN   TestFortune/中吉のテスト9
+=== RUN   TestFortune/大吉のテスト
+--- PASS: TestFortune (0.00s)
+    --- PASS: TestFortune/大凶のテスト (0.00s)
+    --- PASS: TestFortune/凶のテスト1 (0.00s)
+    --- PASS: TestFortune/凶のテスト2 (0.00s)
+    --- PASS: TestFortune/吉のテスト3 (0.00s)
+    --- PASS: TestFortune/吉のテスト4 (0.00s)
+    --- PASS: TestFortune/吉のテスト5 (0.00s)
+    --- PASS: TestFortune/中吉のテスト6 (0.00s)
+    --- PASS: TestFortune/中吉のテスト7 (0.00s)
+    --- PASS: TestFortune/中吉のテスト8 (0.00s)
+    --- PASS: TestFortune/中吉のテスト9 (0.00s)
+    --- PASS: TestFortune/大吉のテスト (0.00s)
+PASS
+ok      go_study/cmd/Fortune    0.220s
+```
+
+
 ## 結果
 
 ```
-$ go run cmd/Fortune/fortune.go0
+$ go run cmd/Fortune/fortune.go
+0
 大凶
 $ go run cmd/Fortune/fortune.go
 5
