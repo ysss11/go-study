@@ -1,2 +1,2 @@
-cmd/StripeSample01/node_modules/*
-cmd/StripeSample02/node_modules/*
+StripeSample01/node_modules/*
+StripeSample02/node_modules/*

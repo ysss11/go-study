@@ -15,18 +15,18 @@
 ## 実行
 
 ```
-go run cmd/Fortune/fortune.go
+go run Fortune/fortune.go
 ```
 
 ## テスト実施方法
 
 ```
-go test ./cmd/Fortune
-ok      go_study/cmd/Fortune    0.091s
+go test ./Fortune
+ok      go_study/Fortune        0.090s
 
 or
 
-go test -v ./cmd/Fortune
+go_study % go test -v ./Fortune    
 === RUN   TestFortune
 === RUN   TestFortune/大凶のテスト
 === RUN   TestFortune/凶のテスト1
@@ -52,26 +52,26 @@ go test -v ./cmd/Fortune
     --- PASS: TestFortune/中吉のテスト9 (0.00s)
     --- PASS: TestFortune/大吉のテスト (0.00s)
 PASS
-ok      go_study/cmd/Fortune    0.220s
+ok      go_study/Fortune        0.268s
 ```
 
 
 ## 結果
 
 ```
-$ go run cmd/Fortune/fortune.go
+$ go run Fortune/fortune.go
 0
 大凶
-$ go run cmd/Fortune/fortune.go
+$ go run Fortune/fortune.go
 5
 吉
-$ go run cmd/Fortune/fortune.go
+$ go run Fortune/fortune.go
 9
 中吉
-$ go run cmd/Fortune/fortune.go
+$ go run Fortune/fortune.go
 2
 凶
-$ go run cmd/Fortune/fortune.go
+$ go run Fortune/fortune.go
 10
 大吉
 ```

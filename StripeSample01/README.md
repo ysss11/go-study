@@ -12,20 +12,20 @@ go get -u github.com/stripe/stripe-go
 ### Run the server
 
 ```
-go run cmd/StripeSample01/server.go
+go run StripeSample01/server.go
 ```
 
 ### Build the client app
 
 ```
-cd cmd/StripeSample01
+cd StripeSample01
 npm install --force
 ```
 
 ### Run the client app
 
 ```
-cd cmd/StripeSample01
+cd StripeSample01
 npm start
 ```
 
