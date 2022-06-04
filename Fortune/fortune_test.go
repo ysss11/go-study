@@ -30,6 +30,8 @@ func TestFortune(t *testing.T) {
 		{"中吉のテスト8", args{8}, "中吉"},
 		{"中吉のテスト9", args{9}, "中吉"},
 		{"大吉のテスト", args{10}, "大吉"},
+		{"不明のテスト1", args{11}, "不明"},
+		{"不明のテスト2", args{-1}, "不明"},
 	}
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
