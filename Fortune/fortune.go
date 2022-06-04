@@ -19,6 +19,8 @@ func Fortune(val int) (result string) {
 		result = "凶"
 	case 0:
 		result = "大凶"
+	default:
+		result = "不明"
 	}
 
 	return result

@@ -21,12 +21,12 @@ go run Fortune/fortune.go
 ## テスト実施方法
 
 ```
-go test ./Fortune
-ok      go_study/Fortune        0.090s
+$ go test ./Fortune
+ok      go_study/Fortune        0.098s
 
 or
 
-go_study % go test -v ./Fortune    
+$ go test -v ./Fortune
 === RUN   TestFortune
 === RUN   TestFortune/大凶のテスト
 === RUN   TestFortune/凶のテスト1
@@ -39,6 +39,8 @@ go_study % go test -v ./Fortune
 === RUN   TestFortune/中吉のテスト8
 === RUN   TestFortune/中吉のテスト9
 === RUN   TestFortune/大吉のテスト
+=== RUN   TestFortune/不明のテスト1
+=== RUN   TestFortune/不明のテスト2
 --- PASS: TestFortune (0.00s)
     --- PASS: TestFortune/大凶のテスト (0.00s)
     --- PASS: TestFortune/凶のテスト1 (0.00s)
@@ -51,8 +53,10 @@ go_study % go test -v ./Fortune
     --- PASS: TestFortune/中吉のテスト8 (0.00s)
     --- PASS: TestFortune/中吉のテスト9 (0.00s)
     --- PASS: TestFortune/大吉のテスト (0.00s)
+    --- PASS: TestFortune/不明のテスト1 (0.00s)
+    --- PASS: TestFortune/不明のテスト2 (0.00s)
 PASS
-ok      go_study/Fortune        0.268s
+ok      go_study/Fortune        0.229s
 ```
 
 
