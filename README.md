@@ -6,3 +6,9 @@ Golangの勉強用リポジトリ
 ```
 go get -u github.com/gin-gonic/gin
 ```
+
+## プログレスバーのライブラリインストール
+
+```
+go get github.com/cheggaaa/pb/v3
+```
