@@ -2,10 +2,12 @@
 
 1から100までの値を表示し、3の倍数のときは Fizz を、5の倍数ときは Buzz 、15の倍数の時は FizzBuzz を表示する
 
+if分を使って作成
+
 ## 実施方法
 
 ```
-$ go run FizzBuzz/fizzbuzz.go 
+$ go run FizzBuzz01/fizzbuzz.go 
 1
 2
 Fizz
