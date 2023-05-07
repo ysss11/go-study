@@ -7,7 +7,7 @@ if分を使って作成
 ## 実施方法
 
 ```
-$ go run FizzBuzz01/fizzbuzz.go 
+$ go run FizzBuzz01/fizzbuzz.go
 1
 2
 Fizz

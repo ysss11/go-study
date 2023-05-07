@@ -3,7 +3,7 @@
 ## 実行方法
 
 ```
-$ go run Fibonacci/fibonacci.go  
+$ go run Fibonacci/fibonacci.go
 0112358132134
 0112358132134
 0112358132134
@@ -32,4 +32,3 @@ ok      go_study/Fibonacci      0.301s
 ## 参考
 
 > https://qiita.com/ShrimpF/items/2f50a0b76d1cee29f0b3
-> 

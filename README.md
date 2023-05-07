@@ -12,3 +12,10 @@ go get -u github.com/gin-gonic/gin
 ```
 go get github.com/cheggaaa/pb/v3
 ```
+
+## go.mod update
+
+```
+$ go get -u ./...
+$ go mod tidy
+```
